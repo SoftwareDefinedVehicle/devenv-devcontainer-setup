@@ -1,1 +1,1 @@
-velocitas-lib==0.0.5
+velocitas-lib @ git+https://github.com/SoftwareDefinedVehicle/velocitas-lib@feature-add-string-utilities

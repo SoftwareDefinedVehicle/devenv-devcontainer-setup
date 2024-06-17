@@ -1,4 +1,4 @@
-velocitas-lib==0.0.5
+velocitas-lib @ git+https://github.com/SoftwareDefinedVehicle/velocitas-lib@feature-add-string-utilities
 velocitas-model-generator==0.7.1
 types-requests
 requests
