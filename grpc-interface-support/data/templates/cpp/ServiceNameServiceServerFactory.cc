@@ -39,7 +39,7 @@ std::unique_ptr<grpc::Server> ${{ service_name_camel_case }}ServiceServerFactory
     builder.RegisterService(service.get());
     // Finally assemble the server.
     std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
-    velocitas::logger().info("Server listening on {}", serviceLocation);
+    velocitas::logger().info("Server ${{ package_id }}::${{ service_name }} listening on {}", serviceLocation);
 
     return server;
 }
